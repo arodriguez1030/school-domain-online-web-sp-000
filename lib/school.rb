@@ -23,7 +23,7 @@ def grade(number)
 end
 
 def sort
-  @roster.each do |a, b|
+  @roster.each do |grade, name|
     a<=>b
   end
 end
