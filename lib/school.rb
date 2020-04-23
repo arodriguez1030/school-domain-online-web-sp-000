@@ -18,7 +18,7 @@ class School
 end
 
 def grade(number)
-  @grade = grade
+  @grade = number
 end
   
 end
