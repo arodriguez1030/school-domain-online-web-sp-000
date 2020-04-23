@@ -23,7 +23,7 @@ def grade(number)
 end
 
 def sort
-  @roster.sort do |a, b|
+  @school.sort do |a, b|
     a<=>b
   end
 end
