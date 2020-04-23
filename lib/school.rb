@@ -14,7 +14,7 @@ class School
     @roster[grade] = []
     @roster[grade]<< name
   end
-  @roster
+  roster
 end
   
 end
