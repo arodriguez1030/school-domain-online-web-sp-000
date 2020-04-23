@@ -19,6 +19,7 @@ end
 
 def grade(number)
   @grade = number
+  return @roster[number]
 end
   
 end
