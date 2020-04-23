@@ -10,7 +10,8 @@ class School
     @add_student = student
     if @roster.any?(grade) == false
     @roster[grade] = []
-  end
+    @roster[grade]<< name
+  else
     @roster[grade]<< name
   end
 end
