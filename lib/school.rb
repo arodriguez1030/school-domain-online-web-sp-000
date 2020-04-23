@@ -12,4 +12,8 @@ class School
     @roster[grade] = []
     @roster[:grade] << "name"
   end
+  
+  def add_student
+    @add_student
+  end
 end
