@@ -21,5 +21,6 @@ def grade(number)
   @grade = number
   return @roster[number]
 end
-  
+
+def sort
 end
