@@ -7,7 +7,7 @@ class School
   end
   
   def add_student(name, grade)
-    @add_student = student
+    @add_student = name
     if @roster.none(grade)
     @roster[grade] = []
   end
