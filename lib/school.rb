@@ -7,7 +7,8 @@ class School
   end
   
   def add_student(name, grade)
-    @add_student = add_student
+    @student_name = name
+    @grade = grade
     if @roster[grade]
     @roster[grade]<< "name"
   else
