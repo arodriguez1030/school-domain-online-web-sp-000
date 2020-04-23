@@ -22,7 +22,7 @@ def grade(number)
   return @roster[number]
 end
 
-def sort{|a, b| a=.}
-  a<=>b
+def sort
+  @roster.sort{|a, b| a<=>b}
 end
 end
