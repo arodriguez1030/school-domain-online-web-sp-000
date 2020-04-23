@@ -25,5 +25,6 @@ end
 def sort
   @roster.sort do |a, b|
     a<=>b
+  end
 end
 end
