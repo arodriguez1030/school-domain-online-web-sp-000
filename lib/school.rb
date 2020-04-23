@@ -11,7 +11,7 @@ class School
     if @roster.none(grade)
     @roster[grade] = []
   end
-    @roster[grade]<< name
+    @roster[grade]<< "name"
   end
   
 end
