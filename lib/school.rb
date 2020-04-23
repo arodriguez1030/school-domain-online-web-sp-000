@@ -13,6 +13,7 @@ class School
     @roster[grade] = []
     @roster[grade]<< name
   end
+  @roster
 end
   
 end
