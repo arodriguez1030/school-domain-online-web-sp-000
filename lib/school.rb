@@ -10,8 +10,9 @@ class School
     @student_name = name
     @grade = grade
     if @roster[grade]
+    @roster[grade]<< "name"
+  else
     @roster[grade] = []
-  end
     @roster[grade]<< "name"
   end
   
